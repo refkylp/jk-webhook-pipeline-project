@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Hello from pipeline after readme file!"
+                echo "Hello from pipeline after readme file and webhook!"
             }
         }
     }
