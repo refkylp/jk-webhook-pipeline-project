@@ -11,6 +11,7 @@ pipeline {
             steps {
                 echo 'Running the compiled java code.'
                 sh 'java Hello'
+                echo "Hello from pipeline with pollSCM!"
             }
         }
     }
